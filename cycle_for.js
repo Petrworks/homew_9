@@ -35,10 +35,10 @@ console.log(sum);
 
 //----Знайти добуток усіх цілих чисел від 15 до 35.
 
-let mult = 15;
+let mult = 1;
 
 for (let i = 15; i <= 35; i++) {
-  mult = mult * (mult + i);
+  mult = mult * i;
 }
 console.log(mult);
 
@@ -100,6 +100,15 @@ for (let i = 1; i <= max; i++) {
 
 const max = +prompt();
 let sum = 0;
+
+for (let i = 1; i <= max; i++) {
+  if (max % i === 0) {
+    if (i % 2 === 0) {
+      sum = sum + ((max % i === 0) % 2 === 0);
+      console.log(i);
+    }
+  }
+}
 
 //--- 12.Надрукувати повну таблицю множення від 1 до 10.
 
