@@ -88,6 +88,14 @@ for (let i = 1; i <= max; i++) {
 
 const max = +prompt();
 
+for (let i = 1; i <= max; i++) {
+  if (max % i === 0) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
+}
+
 //---11.Знайти суму його парних дільників.
 
 const max = +prompt();
