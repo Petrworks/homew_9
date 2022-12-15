@@ -105,10 +105,10 @@ for (let i = 1; i <= max; i++) {
   if (max % i === 0) {
     if (i % 2 === 0) {
       sum = sum + i;
-      console.log(sum);
     }
   }
 }
+console.log(sum);
 
 //--- 12.Надрукувати повну таблицю множення від 1 до 10.
 
